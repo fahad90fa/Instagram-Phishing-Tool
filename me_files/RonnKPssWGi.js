@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useCAARegistrationYouthConsentDialog",["CAARegistrationYouthConsentDialog.entrypoint","react","useCDSEntryPointDialog"],(function(t,n,r,o,a,i,l){"use strict";var e,s=(e||(e=o("react"))).useCallback;function u(e){var t=e.getMutationData,n=e.onConsentAttempt,o=e.onConsentComplete,a=e.onConsentError,i=e.onDecline,l=r("useCDSEntryPointDialog")(r("CAARegistrationYouthConsentDialog.entrypoint"),{}),u=l[0];return s(function(e){return u({getMutationData:t,onConsentAttempt:n,onConsentComplete:o,onConsentError:a,onDecline:i,youthConsentContent:e})},[u,t,n,o,a,i])}l.default=u}),98);

@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAALoginLoggedOutHomeAccountSwitcherTitle.react",["CAALoginLoggedOutHomeStrings","CometColumn.react","CometColumnItem.react","XMDSText.react","react"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react"));function u(e){var t=e.appType,n=e.customTitle,o=e.fromDialog,a=o===void 0?!1:o;return s.jsx(r("CometColumn.react"),{align:"start",children:s.jsx(r("CometColumnItem.react"),{children:s.jsx(r("XMDSText.react"),{textStyle:a===!0?"headline2":"headline3",children:n!==void 0?n:t===0?r("CAALoginLoggedOutHomeStrings").logIntoFacebook:r("CAALoginLoggedOutHomeStrings").logIntoInstagram})})})}u.displayName=u.name+" [from "+i.id+"]",l.default=u}),98);

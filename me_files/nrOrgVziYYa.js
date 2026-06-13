@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAARegistrationLoggingEnums",["$InternalEnum"],(function(t,n,r,o,a,i){"use strict";var e=n("$InternalEnum")({INTEGRITY_BLOCK:"integrity_block",SUMA:"suma",SYSTEM_ERROR:"system_error",USER_INPUT_ERROR:"user_input_error"}),l={CONFIRMATION__BAD_CONF_CODE_INLINE:"CONFIRMATION__BAD_CONF_CODE_INLINE"},s={GRAPH_QL__RATE_LIMIT_EXCEEDED:"GRAPH_QL__RATE_LIMIT_EXCEEDED"},u={CONFIRMATION__BAD_CONF_CODE_INLINE:"1469023",GRAPH_QL__BAD_ARGUMENTS:"1675012",GRAPH_QL__QUERY_ERROR:"1675030",GRAPH_QL__RATE_LIMIT_EXCEEDED:"1675004",REGISTRATION__GENERIC:"1351054"};i.CAARegLoggingCreateFailureExceptionCategory=e,i.CAARegistrationUserInputErrors=l,i.CAARegistrationIntegrityBlockErrors=s,i.CAARegistrationErrorCodeMapping=u}),66);

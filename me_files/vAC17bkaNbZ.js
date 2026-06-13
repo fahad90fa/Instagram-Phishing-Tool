@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAARegistrationFullPageErrorRoot.entrypoint",["CAARegistrationFullPageErrorRootQuery$Parameters","JSResourceForInteraction"],(function(t,n,r,o,a,i,l){"use strict";var e={getPreloadProps:function(){return{queries:{query:{parameters:r("CAARegistrationFullPageErrorRootQuery$Parameters"),variables:{args:{}}}}}},root:r("JSResourceForInteraction")("CAARegistrationFullPageErrorRoot.react").__setRef("CAARegistrationFullPageErrorRoot.entrypoint")};l.default=e}),98);

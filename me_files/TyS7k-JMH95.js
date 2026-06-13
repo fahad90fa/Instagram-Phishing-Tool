@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAARegistrationFullPageForm.react",["CometColumn.react","CometColumnItem.react","CometContentArea.react","CometLayout.react","react"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react"));function u(e){var t=e.children;return s.jsx(r("CometLayout.react"),{children:s.jsx(r("CometContentArea.react"),{children:s.jsx(r("CometColumn.react"),{children:s.jsx(r("CometColumnItem.react"),{align:"center",children:s.jsx("div",{className:"x14rvwrp",children:t})})})})})}u.displayName=u.name+" [from "+i.id+"]",l.default=u}),98);

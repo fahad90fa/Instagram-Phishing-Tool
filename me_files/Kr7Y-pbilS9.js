@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useCAAWebRegistrationImpressionLogging",["CAARegistrationLogging","react","usePartialViewImpression"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react")),u=s.useCallback,c=s.useEffect,d=s.useRef;function m(e){var t=e.loggingParams,n=e.regStartLoggingEvent,a=d(!1);c(function(){a.current&&(a.current=!1)},[]);var i=u(function(){a.current||(n&&o("CAARegistrationLogging").logEvent(n),o("CAARegistrationLogging").logEvent(t),a.current=!0)},[t,n]);return r("usePartialViewImpression")({onImpressionStart:i})}l.default=m}),98);

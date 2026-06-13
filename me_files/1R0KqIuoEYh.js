@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useCAARegistrationFieldValidationQuery",["RelayHooks","WebPixelRatio","react","useCAARegistrationFieldValidationQuery.graphql"],(function(t,n,r,o,a,i,l){"use strict";var e,s,u=s||(s=o("react")),c=u.useCallback,d=u.useState,m=e!==void 0?e:e=n("useCAARegistrationFieldValidationQuery.graphql");function p(e){var t=e===void 0?{}:e,n=t.onCompleted,r=t.onError,a=o("RelayHooks").useRelayEnvironment(),i=d(!1),l=i[0],s=i[1],u=c(function(e){s(!0),o("RelayHooks").fetchQuery(a,m,{input:e,scale:o("WebPixelRatio").get()}).subscribe({complete:function(){s(!1)},error:function(t){s(!1),r&&r(t)},next:function(t){n&&n(t)}})},[a,n,r]);return[u,l]}l.default=p}),98);

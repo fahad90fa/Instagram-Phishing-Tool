@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useCAARegistrationUsernameTypeaheadQuery",["useCAARegistrationUsernameTypeaheadQuery.graphql","useCometTypeaheadGraphQLDataSource"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e!==void 0?e:e=n("useCAARegistrationUsernameTypeaheadQuery.graphql");function u(e){var t,n,r=(t=e==null||(n=e.xfb_caa_registration_homepage_fetch_username_typeahead)==null?void 0:n.username_suggestions)!=null?t:[],o=r.map(function(e){return{key:e,label:e,rawData:null,type:"entry"}});return o}function c(e){var t=e.limit,n=e.usernameInput;return r("useCometTypeaheadGraphQLDataSource")({gqlQuery:s,limit:t,normalize:u,queryVariablesBuilderFunction:function(){return{input:{sensitive_string_value:n}}}})}l.default=c}),98);

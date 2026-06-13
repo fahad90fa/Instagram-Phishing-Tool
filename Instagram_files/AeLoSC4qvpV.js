@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("XMDSTheme.react",["cr:2671","react"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react"));l.default=n("cr:2671")}),98);
+__d("XMDSThemeV1.react",["BaseTheme.react","CometTransientDialogProvider.react","XMDSThemeConfig","react"],(function(t,n,r,o,a,i,l){"use strict";var e=["children"],s,u=s||(s=o("react"));function c(t){var n=t.children,o=babelHelpers.objectWithoutPropertiesLoose(t,e);return u.jsx(r("BaseTheme.react"),babelHelpers.extends({config:r("XMDSThemeConfig")},o,{children:u.jsx(r("CometTransientDialogProvider.react"),{children:n})}))}c.displayName=c.name+" [from "+i.id+"]",l.default=c}),98);

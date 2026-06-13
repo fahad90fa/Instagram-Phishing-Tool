@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAARegistrationFooter.react",["CometColumn.react","CometColumnItem.react","CometContentArea.react","CometLayout.react","react"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react")),u={footer:{maxWidth:"xh9b8t5",$$css:!0}};function c(e){var t=e.children;return s.jsx(r("CometLayout.react"),{children:s.jsx(r("CometContentArea.react"),{verticalAlign:"top",children:s.jsx(r("CometColumn.react"),{align:"center",expanding:!0,paddingHorizontal:20,children:s.jsx(r("CometColumnItem.react"),{children:s.jsx(r("CometColumn.react"),{align:"start",paddingVertical:20,spacing:8,xstyle:u.footer,children:t})})})})})}c.displayName=c.name+" [from "+i.id+"]",l.default=c}),98);

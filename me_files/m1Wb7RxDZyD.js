@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAARegistrationNTMSouthKoreaToSPage.entrypoint",["CAARegistrationNTMSouthKoreaToSPageQuery$Parameters","JSResourceForInteraction","WebPixelRatio"],(function(t,n,r,o,a,i,l){"use strict";var e={getPreloadProps:function(){return{queries:{query:{parameters:r("CAARegistrationNTMSouthKoreaToSPageQuery$Parameters"),variables:{args:{},scale:o("WebPixelRatio").get()}}}}},root:r("JSResourceForInteraction")("CAARegistrationNTMSouthKoreaToSPage.react").__setRef("CAARegistrationNTMSouthKoreaToSPage.entrypoint")};l.default=e}),98);

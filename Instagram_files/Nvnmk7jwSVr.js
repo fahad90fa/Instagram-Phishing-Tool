@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAAFetaCredentialManagerLogin.react",["CAAFetaCredentialManagerLogin_query.graphql","CometRelay","emptyFunction","react","useCAAFetaCredentialManagerLoginSubmit"],(function(t,n,r,o,a,i,l){"use strict";var e,s,u=s||(s=o("react")),c=u.useEffect,d=u.useRef;function m(t){var a=t.appId,i=t.authDomainDataKey,l=t.eventFlow,s=t.eventStep,u=t.lids,m=t.next,p=t.queryKey,_=o("CometRelay").useFragment(e!==void 0?e:e=n("CAAFetaCredentialManagerLogin_query.graphql"),p),f=r("useCAAFetaCredentialManagerLoginSubmit")(a,u,l,s,m,i,_.credential_manager_login_submit,r("emptyFunction"),r("emptyFunction")),g=d(!1);return c(function(){g.current||(g.current=!0,f())},[f]),null}l.default=m}),98);

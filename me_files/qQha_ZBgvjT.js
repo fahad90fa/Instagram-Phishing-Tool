@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAARegistrationNTMCanadaLatAmToSPage.entrypoint",["CAARegistrationNTMCanadaLatAmToSPageQuery$Parameters","JSResourceForInteraction","WebPixelRatio"],(function(t,n,r,o,a,i,l){"use strict";var e={getPreloadProps:function(t){return{queries:{query:{parameters:r("CAARegistrationNTMCanadaLatAmToSPageQuery$Parameters"),variables:{args:{},is_latam:t.is_latam,scale:o("WebPixelRatio").get()}}}}},root:r("JSResourceForInteraction")("CAARegistrationNTMCanadaLatAmToSPage.react").__setRef("CAARegistrationNTMCanadaLatAmToSPage.entrypoint")};l.default=e}),98);

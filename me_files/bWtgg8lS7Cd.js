@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("XFBCAAIGARContactPointType.facebook",["$InternalEnum"],(function(t,n,r,o,a,i){var e=n("$InternalEnum").Mirrored(["EMAIL","PHONE"]),l=e;i.default=l}),66);
+__d("XMDSParagraphs.react",["BaseTextContext","CDSTextConfig","XMDSText.react","react"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react")),u=r("CDSTextConfig").offsets("body"),c=u[0],d=u[1];function m(e){var t=e.children;return s.jsx(r("XMDSText.react"),{children:s.jsx(o("BaseTextContext").BaseTextContextProvider,{nested:!1,children:s.Children.toArray(t).map(function(e,t,n){return s.jsx("div",{className:{0:"x78zum5 xdt5ytf xdj266r x14z9mp xat24cr x1lziwak",1:"x78zum5 xdt5ytf x14z9mp xat24cr x1lziwak x1sy10c2"}[(t!==0)<<0],style:{marginBottom:t===n.length-1?d:null,marginTop:t===0?c:null},children:s.jsx(r("XMDSText.react"),{children:e})},t)})})})}m.displayName=m.name+" [from "+i.id+"]",l.default=m}),98);
